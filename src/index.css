@@ -11,3 +11,103 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav{
+  display: flex;
+  justify-content: left;
+  background-color: rgb(7,7,7);
+  padding: 11px;
+
+}
+
+nav ul li a{
+  color: white;
+  margin-inline: 11px;
+
+}
+
+.head{
+  font-size: 20px;
+}
+
+form{
+  width: 330px;
+  text-align: center;
+}
+
+form input{
+  width: 95%;
+  padding: 5px;
+  border: 1px solid rgb(119,119,119);
+  font-size: 17px;
+  color: rgb(83,83,83);
+  margin-top: 21px;
+}
+form button{
+  width: 135px;
+  height: 33px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 22px;
+}
+form .heading{
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.account{
+  text-align: left;
+  margin-top: -10px;
+}
+.account p{
+  font-size: 14px;
+  color: black;
+  margin-top: 5px;
+}
+.account a{
+  color: blue;
+  cursor: pointer
+}
+.main-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 53px;
+  margin-top: 29px;
+  flex-wrap: wrap;
+}
+.outerDiv{
+  width:330px;
+  margin:0cm;
+}
+.outerDiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.outerDiv ul li{
+  margin: 1px;
+  padding: 0px;
+  List-style: none;
+}
+.outerDiv ul li{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+  background-color: black;
+}
+.outerDiv ul li span{
+  right: 20px;
+  cursor: pointer;
+  position: absolute;
+}
+.completetodo{
+  text-decoration: line-through;
+  color: red !important;
+  background-color: yellow !important;
+}
